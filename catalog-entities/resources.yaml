@@ -10,3 +10,4 @@ spec:
     - ./resources/obc.yaml
     - ./resources/keycloak.yaml
     - ./resources/github.yaml
+    - ./resources/hub-cluster.yaml
