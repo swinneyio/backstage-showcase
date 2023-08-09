@@ -4,6 +4,10 @@ metadata:
   name: local-cluster
   title: OTP RHACM Hub Cluster
   description: OTP RHACM Hub Cluster
+  links:
+    - url: https://console-openshift-console.apps.homelab.swinney.io/multicloud/home/welcome
+      title: RHACM Console
+      icon: web
 spec:
   type: kubernetes-cluster
   lifecycle: production
