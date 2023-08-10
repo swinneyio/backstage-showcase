@@ -6,4 +6,3 @@ metadata:
 spec:
   targets:
     - ./components/showcase.yaml
-    - ./components/managed-clusters.yaml
