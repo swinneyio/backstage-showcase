@@ -48,7 +48,7 @@ export const triggerMQPipelineAction = () => {
         }
       } catch (err) {
         ctx.logger.error('Failed to run MQ server pipeline: ');
-        ctx.logger.error(err.message);
+        // ctx.logger.error(err.message);
       }
     },
   });

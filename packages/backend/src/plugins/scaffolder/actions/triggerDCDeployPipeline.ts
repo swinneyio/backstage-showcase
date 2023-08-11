@@ -49,7 +49,7 @@ export const triggerDCDeployPipelineAction = () => {
         }
       } catch (err) {
         ctx.logger.error('Failed to run ACE Deploy pipeline: ');
-        ctx.logger.error(err.message);
+        // ctx.logger.error(err.message);
       }
     },
   });

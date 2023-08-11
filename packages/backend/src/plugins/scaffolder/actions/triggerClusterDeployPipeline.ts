@@ -52,7 +52,7 @@ export const triggerClusterDeployPipelineAction = () => {
         }
       } catch (err) {
         ctx.logger.error('Failed to run Cluster Deploy pipeline: ');
-        ctx.logger.error(err.message);
+        // ctx.logger.error(err.message);
       }
     },
   });
