@@ -46,6 +46,8 @@
     "@roadiehq/backstage-plugin-argo-cd-backend": "^2.8.1",
     "@roadiehq/scaffolder-backend-argocd": "^1.1.11",
     "@roadiehq/scaffolder-backend-module-utils": "^1.10.1",
+    "@kubernetes/client-node": "^0.18.1",
+    "axios": "^1.2.0",
     "app": "*",
     "better-sqlite3": "^8.0.0",
     "dockerode": "^3.3.1",
@@ -53,7 +55,8 @@
     "express-promise-router": "^4.1.0",
     "isolated-vm": "^4.5.0",
     "pg": "^8.3.0",
-    "winston": "^3.2.1"
+    "winston": "^3.2.1",
+    "zod": "^3.21.4"
   },
   "devDependencies": {
     "@backstage/cli": "^0.22.9",
