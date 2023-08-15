@@ -27,7 +27,7 @@ export const triggerDCDeployPipelineAction = () => {
 
         // TODO: update endpoint
         const pipelineEndpoint =
-          'http://datacap-create-tekton.itzroks-666000qmn3-85z15f-6ccd7f378ae819553d37d5f2ee142bd6-0000.au-syd.containers.appdomain.cloud';
+          'http://datacap-create-tekton.apps.homelab.swinney.io';
 
         const data = {
           cloud: ctx.input.cloud,
